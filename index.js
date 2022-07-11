@@ -39,7 +39,7 @@ app.post("/challenge", (req, res) => {
       is_success: true,
       user_id: "utkarsh_26072000",
       count: alphaNumericCount,
-      numbers: numCount,
+      numbers: toString(numCount),
       alphabets: letterCount,
       roll_number: "1906449",
       email: "utkarsh.popli26@gmail.com",
