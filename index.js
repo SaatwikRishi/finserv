@@ -51,7 +51,7 @@ app.post("/challenge", (req, res) => {
         is_success: false,
         user_id: "shivam_18021999",
         count: alphaNumericCount,
-        numbers: numCount,
+        numbers: toString(numCount) ,
         alphabets: letterCount,
         roll_number: "1906432",
         email: "1906432@kiit.ac.in",
