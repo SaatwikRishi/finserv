@@ -50,9 +50,9 @@ app.post("/challenge", (req, res) => {
     const ans = {
       is_success: false,
       user_id: "utkarsh_26072000",
-      //  count: alphaNumericCount,
-      // numbers: numCount,
-      // alphabets: letterCount,
+      count: "0",
+       numbers: [],
+      alphabets: [] ,
       roll_number: "1906449",
       email: "utkarsh.popli26@gmail.com",
     };
