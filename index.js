@@ -37,7 +37,7 @@ app.post("/challenge", (req, res) => {
     });
     const ans = {
       is_success: true,
-      user_id: "utkarsh_1906449",
+      user_id: "utkarsh_26072000",
       count: alphaNumericCount,
       numbers: numCount,
       alphabets: letterCount,
@@ -49,7 +49,7 @@ app.post("/challenge", (req, res) => {
     console.log(err);
     const ans = {
       is_success: false,
-      user_id: "utkarsh_1906449",
+      user_id: "utkarsh_26072000",
       //  count: alphaNumericCount,
       // numbers: numCount,
       // alphabets: letterCount,
