@@ -38,8 +38,8 @@ app.post("/challenge", (req, res) => {
     const ans = {
       is_success: true,
       user_id: "utkarsh_26072000",
-      count: alphaNumericCount,
-      numbers: toString(numCount),
+      count: toString(alphaNumericCount),
+      numbers: numCount,
       alphabets: letterCount,
       roll_number: "1906449",
       email: "utkarsh.popli26@gmail.com",
@@ -61,5 +61,5 @@ app.post("/challenge", (req, res) => {
 });
 
 app.listen(process.env.PORT || 5000, (e) => {
-    console.log("Started")
-})
+  console.log("Started");
+});
