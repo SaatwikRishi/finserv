@@ -38,7 +38,7 @@ app.post("/challenge", (req, res) => {
     const ans = {
       is_success: true,
       user_id: "saatwik_28042001",
-      count: alphaNumericCount,
+      count: toString(alphaNumericCount),
       numbers: numCount,
       alphabets: letterCount,
       roll_number: "1906198",
